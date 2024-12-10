@@ -1,0 +1,123 @@
+{
+  "email_providers": [
+    {
+      "name": "Gmail",
+      "imap_server": "imap.gmail.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Enable IMAP in Gmail settings. Requires an App Password if two-factor authentication is enabled."
+    },
+    {
+      "name": "Yahoo Mail",
+      "imap_server": "imap.mail.yahoo.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Requires an App Password for third-party applications."
+    },
+    {
+      "name": "Outlook/Hotmail/Live",
+      "imap_server": "outlook.office365.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Works for Outlook.com, Hotmail.com, and Live.com."
+    },
+    {
+      "name": "iCloud Mail",
+      "imap_server": "imap.mail.me.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Requires an App Password if two-factor authentication is enabled."
+    },
+    {
+      "name": "ProtonMail",
+      "imap_server": "Depends on ProtonMail Bridge",
+      "port": "1143 or 993",
+      "security": "Depends on Bridge configuration",
+      "notes": "ProtonMail requires the ProtonMail Bridge application for IMAP/SMTP access."
+    },
+    {
+      "name": "Zoho Mail",
+      "imap_server": "imap.zoho.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Enable IMAP in Zoho Mail settings."
+    },
+    {
+      "name": "Yandex Mail",
+      "imap_server": "imap.yandex.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "AOL Mail",
+      "imap_server": "imap.aol.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Requires an App Password for third-party applications."
+    },
+    {
+      "name": "Fastmail",
+      "imap_server": "imap.fastmail.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "GMX Mail",
+      "imap_server": "imap.gmx.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "Mail.com",
+      "imap_server": "imap.mail.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "FirstMail",
+      "imap_server": "imap.firstmail.ltd",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "Rediffmail",
+      "imap_server": "imap.rediffmail.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "Bluehost",
+      "imap_server": "mail.yourdomain.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": "Replace yourdomain.com with your actual domain name."
+    },
+    {
+      "name": "GoDaddy",
+      "imap_server": "imap.secureserver.net",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "Yahoo Small Business",
+      "imap_server": "imap.bizmail.yahoo.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    },
+    {
+      "name": "Posteo",
+      "imap_server": "imap.posteo.de",
+      "port": 993,
+      "security": "SSL/TLS",
+      "notes": ""
+    }
+  ]
+}
