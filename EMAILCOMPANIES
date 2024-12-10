@@ -29,13 +29,6 @@
       "notes": "Requires an App Password if two-factor authentication is enabled."
     },
     {
-      "name": "ProtonMail",
-      "imap_server": "Depends on ProtonMail Bridge",
-      "port": "1143 or 993",
-      "security": "Depends on Bridge configuration",
-      "notes": "ProtonMail requires the ProtonMail Bridge application for IMAP/SMTP access."
-    },
-    {
       "name": "Zoho Mail",
       "imap_server": "imap.zoho.com",
       "port": 993,
